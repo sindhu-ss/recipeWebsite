@@ -1,0 +1,392 @@
+body {
+	font-family: 'Roboto Slab', serif;
+}
+
+/*-----Navbar-----*/
+
+.navbar-default .navbar-nav > li > a.active {
+	color: #D1B674;
+	letter-spacing: .07em;
+}
+.navbar-brand {
+	padding-top: 6px;
+	padding-left: 2em;
+	padding-right: 2em;
+}
+.navbar-form .btn-default {
+	border: 1px solid #D1B674;
+	background-color: #E5CB98;
+}
+.navbar-form .glyphicon-search {
+	color: white;
+}
+
+
+/*-----LogoBanner-----*/
+
+.logo-banner {
+	text-align: center;
+	padding: 2em 0;
+}
+
+/*-----SwiperContainer-----*/
+
+.swiper-container {
+    width: 100%;
+    height: 500px;
+} 
+.swiper-slide {
+	width: 500px;
+}
+.swiper-slide > img {
+	height: 500px;
+	width: auto;
+} 
+.swiper-button-prev {
+	background-image: url(../images/prev-arrow.svg);
+}
+.swiper-button-next {
+	background-image: url(../images/next-arrow.svg);
+}
+
+/*-----Popular Recipes-----*/
+
+.heading-center {
+	text-align: center;
+	font-weight: 300;
+	letter-spacing: .15em;
+	padding: 1em 0;
+	color: #D1B674;
+}
+.popular-recipes h2 {
+	text-align: center;
+	line-height: 1.3em;
+	font-size: 1.5em;
+	font-weight: 300;
+}
+.popular-recipes h4 {
+	text-align: center;
+	letter-spacing: .08em;
+	font-size: 1em;
+	padding-bottom: 1.5em;
+}
+.popular-recipes {
+	padding-bottom: 1.5em;
+}
+hr {
+    display: block;
+    height: 1.5px;
+    border-top: 1px solid #D1B674;
+}
+
+/*-----Newsletter-------*/
+
+.container-newsletter {
+	padding-top: 1em;
+}
+.col-centered {
+	float: none;
+	margin: 0 auto;
+}
+
+.newsletter-signup {
+	max-width: 350px;
+}
+.newsletter-heading {
+	color: #E5CB98;
+	font-size: 1em;
+	letter-spacing: 0;
+}
+.heading-script {
+	color: #E5CB98;
+	font-size: 3.5em;
+	margin: 0;
+	padding-bottom: 1em;
+	text-align: center;
+}
+.newsletter-signup > .heading-script {
+	padding-bottom: .3em;
+}
+.newsletter-signup > h1 {
+	line-height: 1.2em;
+	text-align: center;
+}
+h1 > span {
+	color: #E5CB98;
+	font-family: 'Roboto Slab';
+	font-size: .9em;
+	font-weight: 300;
+	letter-spacing: .1em;
+	/*border-bottom: 1px solid #D1B674;*/
+}
+.newsletter-signup h1 {
+	padding-top: .5em;
+}
+.newsletter-signup p {
+	text-align: center;
+	margin-bottom: 2em;
+	margin-top: 1em;
+}
+.newsletter-signup #newsletter {
+	width: 280px;
+	margin: 0 auto;
+}
+#newsletter .btn, #request .btn {
+	float: right;
+	border-radius: 10px;
+	padding: .3em .5em;
+	color: white;
+	background-color: #E5CB98;
+	border-color: #E5CB98;
+	letter-spacing: .1em;
+	font-size: 1.2em;
+}
+.container-newsletter hr {
+	margin-top: 6em;
+}
+
+.newsletter-right > .heading-center {
+	padding-bottom: 0;
+	padding-top: 8vw;
+	font-size: 2.2em;
+}
+.newsletter-right > p {
+	text-align: center;
+}
+.newsletter-right p a {
+	color: #E5CB98;
+}
+
+/*-----Register-------*/
+
+.reg-form {
+	border: 1.5px solid #D1B674;
+	padding: 3em;
+	box-sizing: bordr-box;
+	width: 500px;
+	margin-top: 5em;
+	background-color: white;
+}
+label {
+	font-weight: 300;
+	color: #D1B674;
+	letter-spacing: .07em;
+}
+.reg-form .row {
+	padding: 0 3em;
+}
+.reg-form .btn-success {
+	background-color: transparent;
+	border: 2px solid #D1B674;
+	color: #D1B674;
+	float: right;
+	margin-right: 2em;
+}
+
+
+/*---Add/Edit Recipe Button---*/
+
+.add-recipe {
+	background-color: rgba(244,164,96,.3);
+	padding: 2em 0;
+}
+.add-recipe > p > .btn {
+	color: rgb(244,164,96);	
+	border: 1px solid rgba(244,164,96,.6);
+} 
+.add-recipe > p {
+	text-align: center;
+	margin: 0;
+}
+.btn-success {
+	background-color: #D1B674;
+	border: 2px solid #D1B674;
+}
+.btn-danger {
+	margin-left: 2%;
+}
+
+/*----Add Tags----*/
+#tags {
+	position: relative;
+}
+.taggle_input {
+  border: none;
+  outline: none;
+  font-size: 16px;
+  padding: 8px;
+  padding-left: 0;
+  float: left;
+  margin-top: -5px;
+  background: none;
+  width: 100%;
+  max-width: 100%;
+}
+
+.taggle_list {
+  float: left;
+  width: 100%;
+  padding-left: 0;
+
+  position: absolute;
+  top:5.5%;
+}
+
+.taggle_list li {
+  float: left;
+  display: inline-block;
+  margin-bottom: 5px;
+}
+
+.taggle_list .taggle {
+  margin-right: 8px;
+  background: #E2E1DF;
+  padding: 5px 10px;
+  border-radius: 3px;
+  position: relative;
+  cursor: pointer;
+}
+
+.taggle_list .taggle:hover {
+  background: #ccc;
+}
+
+.close {
+  margin-left: 10px;
+}
+
+.taggle_sizer {
+  padding: 0;
+  margin: 0;
+  position: absolute;
+  top: -500px;
+  z-index: -1;
+  visibility: hidden;
+}
+
+/*----Recipes Page---*/
+
+.recipes-main {
+	background-color: #F5F7F7;
+	margin: 0;
+}
+.recipes-main-left {
+	padding: 0;
+	background-color: #FCFCFC;
+}
+.recipes-main-left > img {
+	position: relative;
+	height: 70%;
+	width: 70%;
+	margin-top: 10%;
+	margin-bottom: 10%;
+}
+.recipes-main-left > h1 {
+	color: #D1B674;
+	font-size: 6vw;
+	font-weight: 300;
+	letter-spacing: .15em;
+	position: absolute;
+	z-index: 1;
+	left: 35%;
+	top: 40%;
+}
+.recipes-main-right {
+	padding: 13vw 0;
+	background-color: #F5F7F7;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+}
+.recipes-main-right > img {
+	zoom: 0.5;
+	padding-bottom: 2.5em;
+}
+.recipes-main-right > .heading-script {
+	padding-bottom: 0.4em;
+	font-size: 3em;
+}
+.recipes-main-right > h4 {
+	text-align: center;
+	color: #D1B674;
+}
+.underline {
+	width: 300px;
+}
+.recipes-main-right > p {
+	text-align: center;
+	align-self: center;
+	line-height: 2.5em;
+	max-width: 350px;
+	padding-top: 2vh;
+	padding-bottom: 3vh;
+	font-size: 1.1em;
+	color: #D1B674;
+}
+.recipes-main-right > p:last-child {
+	padding: 0;
+	margin: 0;
+}
+
+/*-----Single Recipe Page-----*/
+
+.spacer {
+	margin-top: 5em;
+}
+.spacer > img {
+	padding-bottom: 2em;
+}
+.single-recipe {
+	background-color: white;
+	margin: 0 auto;
+}
+.single-recipe .heading-script {
+	padding-bottom: .2em;
+	padding-top: .3em;
+	color: #A7A9AC;
+}
+.single-recipe img {
+	width: 80vw;
+	padding: 3em 0;
+}
+.single-recipe ul {
+	list-style: none;
+	padding-left: 0;
+	line-height: 1.8em;
+}
+.recipe-desc > p {
+	padding-left: 3em;
+	line-height: 1.5em;
+	max-width: 450px;
+}
+.single-recipe .vertical-line {
+	padding-left: 5em;
+}
+
+/*-----Footer-----*/
+
+footer {
+	background-color: #F1F2F2;
+	padding-top: 1.5em;
+	padding-bottom: .7em;
+	margin-top: 4em;
+}
+footer ul li {
+	list-style: none;
+	display: inline-block;
+	padding: 0 .25em;
+}
+footer ul, footer p {
+	text-align: center;
+	padding: .25em 0;
+}
+footer ul li a:hover {
+	color: #D1B674;
+	text-decoration: none;
+}
+footer span {
+	color: #D1B674;
+}
+
+
+
